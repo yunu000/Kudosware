@@ -1,0 +1,103 @@
+html
+{
+	min-height: 100%;
+	background-image: -webkit-linear-gradient(65deg,#ecd7d7 50%,#d6d8ea 50%);	
+}
+.input-group
+{
+	width: 30rem;
+}
+
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.custom
+{
+	display: block;
+	position: relative;
+	width: 20rem;
+	margin: auto;
+	top: 4rem;
+}
+.custom-btn
+{
+	display: block;
+	position: relative;
+	left: 47%;
+	width: 6rem;
+	top: 5rem;
+	font-weight: bold;
+}
+input
+{
+	text-align: center;
+}
+.form-control
+{
+	font-weight: bold;
+}
+#top{
+	position: fixed;
+    left: 0;
+    right: 0;
+    height: 30%;
+}
+#bottom {
+	position: fixed;
+    left: 0;
+    right: 0;
+    height: 70%;
+}
+
+#top {
+    top: 0;
+}
+
+#bottom {
+    bottom: 0;
+}
+#bottom
+{
+	display: flex;
+	flex-direction: row;
+}
+.container
+{
+	padding: 0px;
+	margin: auto;
+	height: 90%;
+	width: 40%;
+	border: .3px solid black;
+	border-radius:.2rem; 
+	box-shadow: .3rem .3rem grey;
+}
+#cont_1
+{
+	overflow-y: scroll; 
+}
+li a
+{
+	
+}
+a:hover
+{
+	text-decoration: none;
+	font-size: 1.5rem;
+	color: red;
+	cursor: pointer;
+}
